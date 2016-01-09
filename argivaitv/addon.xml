@@ -7,7 +7,7 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>ArgivaiTV Addon</summary>
-		<description>Addon Description</description>
+		<description>Canais de TV Gratis</description>
 		<disclaimer></disclaimer>
 		<platform>all</platform>
 	</extension>
