@@ -266,6 +266,26 @@ Esta lista 80% sÃ£o links acestream, por isso tem de ter o plexus instalado e 
     </extension>
 </addon>
 
+<addon id="plugin.video.uwc"
+       name="Ultimate Whitecream"
+       version="1.0.63"
+       provider-name="mortael">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <license>GPL 2.0</license>
+        <summary lang="en">Watch [COLOR red][B]ADULT[/B][/COLOR] Movies with Ultimate WhiteCream</summary>
+        <description lang="en">Watch [COLOR red][B]ADULT[/B][/COLOR] Movies with Ultimate WhiteCream</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+    </extension>
+</addon>
+
 <addon id="plugin.video.xbmctools" name="KODI tools" version="1.1.6" provider-name="dcatx">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
