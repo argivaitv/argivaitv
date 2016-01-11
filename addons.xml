@@ -14,13 +14,10 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.filmesonlinex" name="FILMESONLINEX" version="0.0.1" provider-name="Cleiton Leonel Creton">
-  <requires>
+<addon id="plugin.video.ArgivaiTv" name="ArgivaiTv" version="4.4.2" provider-name="A@L">
+	<requires>
     <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.urlresolver" version="1.0.0"/>
-	<import addon="script.module.metahandler" optional="true"/>
-	<import addon="script.module.simplejson" optional="true"/>
-	<import addon="script.module.parsedom" optional="true"/>
+	<import addon="script.module.beautifulsoup" version="3.2.1"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="addon.py">
     <provides>video</provides>
@@ -28,10 +25,57 @@
   <extension point="xbmc.addon.metadata">
     <language>en</language>
     <platform>all</platform>
-    <summary lang="en">Visite o site http://www.filmesonlinex.net ,atraves do kodi e assista os melhores filmes em HD 720p e 1080p</summary>
-    <description lang="en">Visite o site http://www.filmesonlinex.net ,atraves do kodi e assista os melhores filmes em HD 720p e 1080p</description>
+    <summary lang="en">Assista tv </summary>
+    <description lang="en">nao transmitimos nenhum stream,tudo o que esta aqui esta ao alcance de qualquer um na internet!</description>
     <platform>all</platform>
   </extension>
+</addon>
+
+<addon id="plugin.video.EliplexTV" name="[COLOR darkorange]ELIPLEX TV [/COLOR]" version="1.0.2" provider-name="Eliesel G.S">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>[COLOR darkorange]ELIPLEX TV [/COLOR]</summary>
+    <description lang="en"> Entretenimiento al extremo #MI MUNDO ES TU MUNDO
+	[COLOR green]* VISITA NUESTRA PAGINA   https://eliplextv.wordpress.com/ [/COLOR]</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.genesis" name="Genesis" version="5.1.4" provider-name="lambda">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.requests" version="1.0.0" />
+		<import addon="script.module.metahandler" optional="true" />
+		<import addon="plugin.video.youtube" optional="true" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">The origins of streaming</summary>
+		<description lang="en">Visit TVADDONS.ag for support</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+		<forum>http://forums.tvaddons.ag/forums/148-lambda-s-xbmc-addons</forum>
+		<source>https://offshoregit.com/lambda81/</source>
+		<website>https://offshoregit.com/lambda81/</website>
+		<platform>all</platform>
+	</extension>
 </addon>
 
 <addon id="plugin.video.lusotv" name="Luso TV" version="1.1.2" provider-name="AddonBrasil">
@@ -46,6 +90,20 @@
         <description>Canais de TV Portugueses</description>
         <platform>all</platform>
     </extension>
+</addon>
+
+<addon id="plugin.video.movieshd" name="Movies HD" version="1.0.3" provider-name="MetalKettle">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en"></description>
+    <platform>all</platform>
+  </extension>
 </addon>
 
 <addon id="plugin.video.pancas"
@@ -79,6 +137,20 @@ Esta lista 80% sÃ£o links acestream, por isso tem de ter o plexus instalado e 
   </extension>
 </addon>
 
+<addon id="plugin.video.povoatv" name="povoaTV" version="0.0.6" provider-name="povoa">
+    <requires>
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               library="player.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>lista de IPTV</summary>
+        <description>adiciona, edita, faz esta lista ser tua tambem.</description>
+    </extension>
+</addon>
+
 <addon id="plugin.video.surikata" name="surikata TV" version="0.0.6" provider-name="Discave">
     <requires>
     </requires>
@@ -91,5 +163,53 @@ Esta lista 80% sÃ£o links acestream, por isso tem de ter o plexus instalado e 
         <summary>A tua lista de IPTV</summary>
         <description>Junta-te a nos, no GitHub em https://github.com/adrianoafonso/myIPTVchannels, adiciona, edita, faz esta lista ser tua tambem.</description>
     </extension>
+</addon>
+
+<addon id="plugin.video.xbmctools" name="KODI tools" version="1.1.6" provider-name="dcatx">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>executable</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup">
+    </extension>
+  <extension point="xbmc.addon.metadata">
+    <language>en</language>
+    <platform>all</platform>
+    <summary lang="en">Actualizador de Librerias</summary>
+    <description lang="en">Herramientas para actualizar las Libtmp.dll </description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="script.navi-x"
+       name="Navi-X"
+       version="4.0"
+       provider-name="Team Navi-X and TVADDONS.ag">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.urlresolver"  />
+    <import addon="script.module.t0mm0.common"  />
+    <import addon="script.module.addon.common" optional="false" />
+    <import addon="repository.xbmchub" optional="true" />
+    <import addon="plugin.video.youtube" optional="false" />
+  </requires>
+  <extension point="xbmc.python.script" library="default.py" >
+    <provides>executable video</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="startup">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <minversion>28764</minversion>
+    <summary>Media Browser Addon for Kodi</summary>
+    <description>Navi-X is the oldest and most trusted add-on for Kodi, used by millions of people worldwide. You'll find everything from live television to your favourite movies and television shows, easily accessible.</description>
+    <disclaimer>http://www.navixtreme.com/terms/</disclaimer>
+    <forum>http://forums.tvaddons.ag/forums/38-NAVI-X-MEDIA-BROWSER-FOR-KODI</forum>
+    <website>http://www.navixtreme.com/</website>
+    <source></source>
+    <email></email>
+  </extension>
 </addon>
 </addons>

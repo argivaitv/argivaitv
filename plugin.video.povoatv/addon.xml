@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.povoatv" name="povoaTV" version="0.0.6" provider-name="povoa">
+    <requires>
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               library="player.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>lista de IPTV</summary>
+        <description>adiciona, edita, faz esta lista ser tua tambem.</description>
+    </extension>
+</addon>
