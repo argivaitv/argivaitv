@@ -1,19 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="argivaitv" name="Argivai Tv" version="0.0.2" provider-name="argivaitv">
-	<extension point="xbmc.addon.repository" name="ArgivaiTV Add-on Repository">
-		<info compressed="false">http://raw.github.com/argivaitv/argivaitv/master/addons.xml</info>
-		<checksum>http://raw.github.com/argivaitv/argivaitv/master/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.github.com/argivaitv/argivaitv/master/repo/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>ArgivaiTV Addon</summary>
-		<description>Canais de TV Gratis</description>
-		<disclaimer></disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-
 <addon id="plugin.video.genesis" name="Genesis" version="5.1.4" provider-name="lambda">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
@@ -161,6 +147,20 @@ Esta lista 80% sÃ£o links acestream, por isso tem de ter o plexus instalado e 
     <description lang="en">Herramientas para actualizar las Libtmp.dll </description>
     <platform>all</platform>
   </extension>
+</addon>
+
+<addon id="argivaitv" name="Argivai Tv" version="0.0.2" provider-name="argivaitv">
+	<extension point="xbmc.addon.repository" name="ArgivaiTV Add-on Repository">
+		<info compressed="false">http://raw.github.com/argivaitv/argivaitv/master/addons.xml</info>
+		<checksum>http://raw.github.com/argivaitv/argivaitv/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/argivaitv/argivaitv/master/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>ArgivaiTV Addon</summary>
+		<description>Canais de TV Gratis</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
 </addon>
 
 <addon id="script.navi-x"
