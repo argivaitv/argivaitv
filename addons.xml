@@ -14,6 +14,66 @@
 	</extension>
 </addon>
 
+<addon id="plugin.video.armagedompirata" name="Armagedom Pirata" version="0.0.1" provider-name="Cleiton Leonel Creton">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.urlresolver" version="1.0.0"/>
+	<import addon="script.module.metahandler" optional="true"/>
+	<import addon="script.module.simplejson" optional="true"/>
+	<import addon="script.module.parsedom" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <language>en</language>
+    <platform>all</platform>
+    <summary lang="en">Visite o site http://www.armagedomfilmes.biz/ ,o Netflix brasileiro,atravÃ©s do kodi</summary>
+    <description lang="en">Visite o site http://www.armagedomfilmes.biz/ ,o Netflix brasileiro, atravÃ©s do kodi</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.crackle2fg"
+       name="Crackle 2"
+       version="0.1"
+       provider-name="foreverguest">
+  <requires>
+    <import addon="xbmc.python" version="2.13.0"/>
+	<import addon="script.common.plugin.cache" version="0.9.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Crackle</summary>
+    <description lang="en">Shows and Movies from Crackle.</description>
+     <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.efilmes" name="[COLOR blue]e[/COLOR][B][COLOR blue]F[/COLOR][/B][COLOR blue]ilmes[/COLOR][COLOR green]na[/COLOR][B][COLOR green]R[/COLOR][/B][COLOR green]ede[/COLOR][COLOR yellow].com[/COLOR]" provider-name="[B]acamposxp[/B] | [B]Cleiton Leonel Creton[/B]" version="0.0.1">
+	<requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.urlresolver" version="1.0.0"/>
+	<import addon="script.module.metahandler" optional="true"/>
+	<import addon="script.module.simplejson" optional="true"/>
+	<import addon="script.module.parsedom" optional="true"/>
+	<import addon="script.module.t0mm0.common" version="1.1.2"/>
+  </requires>
+ <extension library="addon.py" point="xbmc.python.pluginsource">
+  <provides>video</provides>
+ </extension>
+ <extension point="xbmc.addon.metadata">
+  <language>en</language>
+  <platform>all</platform>
+  <summary lang="en">eFILMES</summary>
+  <description lang="en">Assistir aos filmes do site http://efilmesnarede.com/</description>
+  <platform>all</platform>
+ </extension>
+</addon>
+
 <addon id="plugin.video.genesis" name="Genesis" version="5.1.4" provider-name="lambda">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />

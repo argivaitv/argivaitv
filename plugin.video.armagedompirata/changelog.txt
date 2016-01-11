@@ -1,0 +1,14 @@
+14/10/2015 versão 0.0.1
+- todos os hosts funcionando
+
+
+"Versão by Cleiton Leonel Creton,do addon ArmagedomFilmes."
+
+- FILMES - SÉRIES - ANIMES - COLEÇÕES DE FILMES 
+- Todas as opções acima você encontra nessa versão.
+- Algumas funções como a "COLEÇÕES DE FILMES" ainda persiste um bug,
+  mas nas próximas atualizações consertarei o erro...
+...Em breve melhorias!!!
+
+SUGESTÕES E RECLAMAÇÕES:
+EMAIL:cleiton.leonel@gmail.com
