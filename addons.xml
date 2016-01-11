@@ -14,48 +14,6 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.ArgivaiTv" name="ArgivaiTv" version="4.4.2" provider-name="A@L">
-	<requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.beautifulsoup" version="3.2.1"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <language>en</language>
-    <platform>all</platform>
-    <summary lang="en">Assista tv </summary>
-    <description lang="en">nao transmitimos nenhum stream,tudo o que esta aqui esta ao alcance de qualquer um na internet!</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.EliplexTV" name="[COLOR darkorange]ELIPLEX TV [/COLOR]" version="1.0.2" provider-name="Eliesel G.S">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" />
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>[COLOR darkorange]ELIPLEX TV [/COLOR]</summary>
-    <description lang="en"> Entretenimiento al extremo #MI MUNDO ES TU MUNDO
-	[COLOR green]* VISITA NUESTRA PAGINA   https://eliplextv.wordpress.com/ [/COLOR]</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.genesis" name="Genesis" version="5.1.4" provider-name="lambda">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
@@ -90,20 +48,6 @@
         <description>Canais de TV Portugueses</description>
         <platform>all</platform>
     </extension>
-</addon>
-
-<addon id="plugin.video.movieshd" name="Movies HD" version="1.0.3" provider-name="MetalKettle">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en"></summary>
-    <description lang="en"></description>
-    <platform>all</platform>
-  </extension>
 </addon>
 
 <addon id="plugin.video.pancas"
