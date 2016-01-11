@@ -14,6 +14,38 @@
 	</extension>
 </addon>
 
+<addon id="plugin.video.dextertv"
+       name="dexterTV"
+       version="1.0"
+       provider-name="dexter's lab">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Live Stream Popular USA/International Networks.</summary>
+    <description>
+		This addon was created as an alternative to IPTV stalker.
+		I do not own/host any of the content found on the addon.
+	I will do my best to keep this addon updated with fresh links.
+	Message me on youtube @optigames4you if you would like to help or donate.
+    </description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.genesis" name="Genesis" version="5.1.4" provider-name="lambda">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
@@ -108,6 +140,27 @@ Esta lista 80% sÃ£o links acestream, por isso tem de ter o plexus instalado e 
     <summary lang="en">Lista de canais IPTV by Rogger</summary>
     <description lang="en">Assista a vÃ¡rios canais transmitidos pela internet diretamente no Kodi</description>
 	<platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.SportsDevil"
+  version="20152015.11.08.2"
+  name="SportsDevil"
+  provider-name="MaxMustermann">
+  <requires>
+   <import addon="xbmc.python" version="2.14.0"/>
+   <import addon="script.module.requests" />
+  </requires>
+  <extension
+    point="xbmc.python.pluginsource"
+    library="default.py">
+   <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Play videos of different sports streaming sites</summary>
+    <description>Play videos of different sports streaming sites</description>
+    <platform>all</platform>
   </extension>
 </addon>
 
