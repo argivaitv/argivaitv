@@ -67,7 +67,7 @@ Esta lista 80% sÃ£o links acestream, por isso tem de ter o plexus instalado e 
   </extension>
 </addon>
 
-<addon id="plugin.video.phstreams" name="Phoenix" version="2.7.6" provider-name="Blazetamer, lambda, VinMan_JSV">
+<addon id="plugin.video.phstreams" name="Phoenix" version="2.7.1" provider-name="Blazetamer, lambda">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.pyxbmct" version="1.1.4" />
@@ -132,6 +132,26 @@ Esta lista 80% sÃ£o links acestream, por isso tem de ter o plexus instalado e 
     <description lang="en">Assista a vÃ¡rios canais transmitidos pela internet diretamente no Kodi</description>
 	<platform>all</platform>
   </extension>
+</addon>
+
+<!--suppress ALL -->
+<addon id="plugin.video.salts" version="1.0.82" name="Stream All The Sources" provider-name="tknorris">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.urlresolver" version="2.2.0"/>
+        <import addon="script.module.myconnpy" version="1.1.6" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+     <extension point="xbmc.service" library="service.py" start="startup"/>
+    <extension point="xbmc.addon.metadata">
+        <summary>Stream video from many difference sources</summary>
+        <description>This addon uses trakt.tv for most show and movie meta data and uses a variety of websites for hoster sources</description>
+        <platform>all</platform>
+        <website>http://tvaddons.ag/</website>
+		<forum>http://forums.tvaddons.ag/forums/180-TKNORRIS-RELEASE-REPOSITORY</forum>
+	</extension>
 </addon>
 
 <addon id="plugin.video.surikata" name="surikata TV" version="0.0.6" provider-name="Discave">
