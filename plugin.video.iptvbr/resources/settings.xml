@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<settings>
-    <category label="Tv ao Vivo">
-      <setting id="setepg" type="bool" default="false" label="Desativar EPG"/>
-   </category>
-</settings>

@@ -14,70 +14,6 @@
 	</extension>
 </addon>
 
-<addon id="plugin.audio.palcomp3" name="Palco MP3" version="0.2" provider-name="IPTV Brasil">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-	<import addon="script.module.beautifulsoup4" />
-    <provides>audio</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <language>en</language>
-    <platform>all</platform>
-    <summary lang="en">Palco MP3</summary>
-	<description lang="en">OuÃ§a as musicas de seus artistas preferidos no Palco MP3 - maior site de mÃºsica independente do Brasil</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.dclip"
-	   name="Dclip"
-	   version="1.0.1"
-	   provider-name=" ">
-  <extension point="xbmc.python.pluginsource"
-			 library="default.py">
-    	<provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Adult(18+) videos from Deviantclip.com</summary>
-    <description>Adult(18+) videos from Deviantclip.com</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.dextertv"
-       name="dexterTV"
-       version="1.0"
-       provider-name="dexter's lab">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" />
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Live Stream Popular USA/International Networks.</summary>
-    <description>
-		This addon was created as an alternative to IPTV stalker.
-		I do not own/host any of the content found on the addon.
-	I will do my best to keep this addon updated with fresh links.
-	Message me on youtube @optigames4you if you would like to help or donate.
-    </description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.genesis" name="Genesis" version="5.1.4" provider-name="lambda">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
@@ -98,42 +34,6 @@
 		<website>https://offshoregit.com/lambda81/</website>
 		<platform>all</platform>
 	</extension>
-</addon>
-
-<addon id="plugin.video.iptvbr" name="[COLOR white]IPTVBrasil[/COLOR] [COLOR blue]BETA[/COLOR]" version="0.0.8" provider-name="IptvBR Team">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="plugin.video.youtube" />
-	<import addon="script.module.urlresolver" />
-	<import addon="script.module.beautifulsoup4" />
-	<import addon="script.module.mechanize" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <language>en</language>
-    <platform>all</platform>
-    <summary lang="en">IPTVBrasil</summary>
-	<description lang="en">Todo conteÃºdo do addon estÃ£o disponibilizado na Internet de forma gratuita e sem nenhuma forma de remuneraÃ§Ã£o.</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.iptvbrasil" name="IPTV Brasil" version="1.0.1" provider-name="IPTV Brasil by Marco">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="defaut.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <language>en</language>
-    <platform>all</platform>
-    <summary lang="en">IPTV Brasil</summary>
-    <description lang="en">Canais do Mundo em um so Lugar.</description>
-	<platform>all</platform>
-  </extension>
 </addon>
 
 <addon id="plugin.video.lusotv" name="Luso TV" version="1.1.2" provider-name="AddonBrasil">
@@ -231,27 +131,6 @@ Esta lista 80% sÃ£o links acestream, por isso tem de ter o plexus instalado e 
   </extension>
 </addon>
 
-<addon
-  id="plugin.video.SportsDevil"
-  version="20152015.11.08.2"
-  name="SportsDevil"
-  provider-name="MaxMustermann">
-  <requires>
-   <import addon="xbmc.python" version="2.14.0"/>
-   <import addon="script.module.requests" />
-  </requires>
-  <extension
-    point="xbmc.python.pluginsource"
-    library="default.py">
-   <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Play videos of different sports streaming sites</summary>
-    <description>Play videos of different sports streaming sites</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.surikata" name="surikata TV" version="0.0.6" provider-name="Discave">
     <requires>
     </requires>
@@ -263,26 +142,6 @@ Esta lista 80% sÃ£o links acestream, por isso tem de ter o plexus instalado e 
         <platform>all</platform>
         <summary>A tua lista de IPTV</summary>
         <description>Junta-te a nos, no GitHub em https://github.com/adrianoafonso/myIPTVchannels, adiciona, edita, faz esta lista ser tua tambem.</description>
-    </extension>
-</addon>
-
-<addon id="plugin.video.uwc"
-       name="Ultimate Whitecream"
-       version="1.0.63"
-       provider-name="mortael">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource"
-               library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <license>GPL 2.0</license>
-        <summary lang="en">Watch [COLOR red][B]ADULT[/B][/COLOR] Movies with Ultimate WhiteCream</summary>
-        <description lang="en">Watch [COLOR red][B]ADULT[/B][/COLOR] Movies with Ultimate WhiteCream</description>
-		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
     </extension>
 </addon>
 
@@ -302,35 +161,6 @@ Esta lista 80% sÃ£o links acestream, por isso tem de ter o plexus instalado e 
     <description lang="en">Herramientas para actualizar las Libtmp.dll </description>
     <platform>all</platform>
   </extension>
-</addon>
-
-<addon
-    id="plugin.video.xxtrucoxx"
-    name="XxTRUCOxX"
-    version="1.0.6"
-    provider-name="XxTRUCOxX">
-   <requires>
-     <import addon="xbmc.python" version="2.1.0"/>
-	 <import addon="script.module.urlresolver"  version="2.8.0"/>
-	 <import addon="script.module.addon.common" version="2.0.0" />
-	 <import addon="script.module.metahandler"  version="0.0.1"/>
-	 <import addon="script.common.plugin.cache"/>
-   </requires>
-   <extension point="xbmc.python.pluginsource" library="plugin.py" >
-	 <provides>video</provides>
-   </extension>
-   <extension point="xbmc.python.module" library="lib" />
-   <extension point="xbmc.addon.metadata">
-	 <summary lang="pt">Assista videos e filmes [COLOR red][B]ADULTOS[/COLOR][/B] encodado e upado por XxTRUCOxX.</summary>
-	 <description lang="pt">Assista videos e filmes [COLOR red][B]ADULTOS[/COLOR][/B] encodado e upado por XxTRUCOxX. Atualizado diariamente!</description>
-	 <platform></platform>
-     <language></language>
-	 <license></license>
-	 <forum></forum>
-	 <website></website>
-	 <source></source>
-	 <email></email>
-   </extension>
 </addon>
 
 <addon id="script.navi-x"
