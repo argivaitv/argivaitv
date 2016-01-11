@@ -14,6 +14,23 @@
 	</extension>
 </addon>
 
+<addon id="plugin.audio.palcomp3" name="Palco MP3" version="0.2" provider-name="IPTV Brasil">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+	<import addon="script.module.beautifulsoup4" />
+    <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <language>en</language>
+    <platform>all</platform>
+    <summary lang="en">Palco MP3</summary>
+	<description lang="en">OuÃ§a as musicas de seus artistas preferidos no Palco MP3 - maior site de mÃºsica independente do Brasil</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.dextertv"
        name="dexterTV"
        version="1.0"
@@ -66,6 +83,42 @@
 		<website>https://offshoregit.com/lambda81/</website>
 		<platform>all</platform>
 	</extension>
+</addon>
+
+<addon id="plugin.video.iptvbr" name="[COLOR white]IPTVBrasil[/COLOR] [COLOR blue]BETA[/COLOR]" version="0.0.8" provider-name="IptvBR Team">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="plugin.video.youtube" />
+	<import addon="script.module.urlresolver" />
+	<import addon="script.module.beautifulsoup4" />
+	<import addon="script.module.mechanize" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <language>en</language>
+    <platform>all</platform>
+    <summary lang="en">IPTVBrasil</summary>
+	<description lang="en">Todo conteÃºdo do addon estÃ£o disponibilizado na Internet de forma gratuita e sem nenhuma forma de remuneraÃ§Ã£o.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.iptvbrasil" name="IPTV Brasil" version="1.0.1" provider-name="IPTV Brasil by Marco">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="defaut.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <language>en</language>
+    <platform>all</platform>
+    <summary lang="en">IPTV Brasil</summary>
+    <description lang="en">Canais do Mundo em um so Lugar.</description>
+	<platform>all</platform>
+  </extension>
 </addon>
 
 <addon id="plugin.video.lusotv" name="Luso TV" version="1.1.2" provider-name="AddonBrasil">
