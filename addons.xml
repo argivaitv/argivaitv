@@ -95,6 +95,22 @@ Esta lista 80% sÃ£o links acestream, por isso tem de ter o plexus instalado e 
     </extension>
 </addon>
 
+<addon id="plugin.video.roggerstream" name="Rogger Stream" version="1.1.8" provider-name="Rogger, Cleiton Leonel Creton">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="defaut.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <language>en</language>
+    <platform>all</platform>
+    <summary lang="en">Lista de canais IPTV by Rogger</summary>
+    <description lang="en">Assista a vÃ¡rios canais transmitidos pela internet diretamente no Kodi</description>
+	<platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.surikata" name="surikata TV" version="0.0.6" provider-name="Discave">
     <requires>
     </requires>
