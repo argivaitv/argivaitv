@@ -181,6 +181,26 @@ Esta lista 80% sÃ£o links acestream, por isso tem de ter o plexus instalado e 
   </extension>
 </addon>
 
+<addon id="plugin.video.phstreams" name="Phoenix" version="2.7.6" provider-name="Blazetamer, lambda, VinMan_JSV">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.pyxbmct" version="1.1.4" />
+		<import addon="script.module.requests" version="1.1.0" />
+		<import addon="script.module.metahandler" version="2.3.1" />
+		<import addon="plugin.video.youtube" optional="true" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Phoenix</summary>
+		<description lang="en">Discover Great Streaming Playlists Exclusive to Kodi, Please visit www.tvaddons.ag for help and support!</description>
+		<platform>all</platform>
+		<forum>http://forums.tvaddons.ag/forums/220-PHOENIX-LIVE-STREAMS</forum>
+		<website>http://www.tvaddons.ag/</website>
+	</extension>
+</addon>
+
 <addon id="plugin.video.povoatv" name="povoaTV" version="0.0.6" provider-name="povoa">
     <requires>
     </requires>
@@ -262,6 +282,35 @@ Esta lista 80% sÃ£o links acestream, por isso tem de ter o plexus instalado e 
     <description lang="en">Herramientas para actualizar las Libtmp.dll </description>
     <platform>all</platform>
   </extension>
+</addon>
+
+<addon
+    id="plugin.video.xxtrucoxx"
+    name="XxTRUCOxX"
+    version="1.0.6"
+    provider-name="XxTRUCOxX">
+   <requires>
+     <import addon="xbmc.python" version="2.1.0"/>
+	 <import addon="script.module.urlresolver"  version="2.8.0"/>
+	 <import addon="script.module.addon.common" version="2.0.0" />
+	 <import addon="script.module.metahandler"  version="0.0.1"/>
+	 <import addon="script.common.plugin.cache"/>
+   </requires>
+   <extension point="xbmc.python.pluginsource" library="plugin.py" >
+	 <provides>video</provides>
+   </extension>
+   <extension point="xbmc.python.module" library="lib" />
+   <extension point="xbmc.addon.metadata">
+	 <summary lang="pt">Assista videos e filmes [COLOR red][B]ADULTOS[/COLOR][/B] encodado e upado por XxTRUCOxX.</summary>
+	 <description lang="pt">Assista videos e filmes [COLOR red][B]ADULTOS[/COLOR][/B] encodado e upado por XxTRUCOxX. Atualizado diariamente!</description>
+	 <platform></platform>
+     <language></language>
+	 <license></license>
+	 <forum></forum>
+	 <website></website>
+	 <source></source>
+	 <email></email>
+   </extension>
 </addon>
 
 <addon id="script.navi-x"
