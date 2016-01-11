@@ -87,6 +87,23 @@ Esta lista 80% sÃ£o links acestream, por isso tem de ter o plexus instalado e 
 	</extension>
 </addon>
 
+<addon id="plugin.video.PortugalTv" name="PortugalTv" version="4.4.2" provider-name="M@B">
+	<requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.beautifulsoup" version="3.2.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <language>en</language>
+    <platform>all</platform>
+    <summary lang="en">Assista tv </summary>
+    <description lang="en">nao transmitimos nenhum stream,tudo o que esta aqui esta ao alcance de qualquer um na internet!</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.povoatv" name="povoaTV" version="0.0.6" provider-name="povoa">
     <requires>
     </requires>
