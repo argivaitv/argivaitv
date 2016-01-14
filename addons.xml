@@ -62,6 +62,21 @@
 	</extension>
 </addon>
 
+<addon id="plugin.video.kodilivetv" name="Kodi Live TV" version="1.0.9" provider-name="Vania Rupeni">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Kodi Live TV - downloaded for free from: http://kodilive.eu</summary>
+    <description lang="en">Kodi Live TV - downloaded for free from:
+http://kodilive.eu</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.lusotv" name="Luso TV" version="1.1.2" provider-name="AddonBrasil">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -125,6 +140,22 @@ Esta lista 80% sÃ£o links acestream, por isso tem de ter o plexus instalado e 
 		<forum>http://forums.tvaddons.ag/forums/220-PHOENIX-LIVE-STREAMS</forum>
 		<website>http://www.tvaddons.ag/</website>
 	</extension>
+</addon>
+
+<addon id="plugin.video.playlistLoader" name="Playlist Loader" version="1.0.6" provider-name="Avigdor">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Playlist Loader - downloaded for free from:
+http://www.hometheater.co.il</summary>
+    <description lang="en">Playlist Loader - downloaded for free from:
+http://www.hometheater.co.il</description>
+    <platform>all</platform>
+  </extension>
 </addon>
 
 <addon id="plugin.video.PortugalTv" name="PortugalTv" version="4.4.2" provider-name="M@B">
@@ -281,6 +312,20 @@ O addon apenas inclui streams oficiais.</description>
 	<extension point="xbmc.addon.metadata">
 		<summary>ArgivaiTV Addon</summary>
 		<description>Canais de TV Gratis</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.catoal" name="Catoal repository" version="1.0.0" provider-name="Catoal">
+	<extension point="xbmc.addon.repository" name="Catoal Repository">
+		<info compressed="false">http://raw.github.com/catoalkodi/repository.catoal/master/addons.xml</info>
+		<checksum>http://raw.github.com/catoalkodi/repository.catoal/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/catoalkodi/repository.catoal/master/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Catoal Addon</summary>
+		<description>Addon Description</description>
 		<disclaimer></disclaimer>
 		<platform>all</platform>
 	</extension>
