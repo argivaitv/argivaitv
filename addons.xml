@@ -189,22 +189,6 @@ http://www.hometheater.co.il</description>
     </extension>
 </addon>
 
-<addon id="plugin.video.roggerstream" name="Rogger Stream" version="1.1.8" provider-name="Rogger, Cleiton Leonel Creton">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="defaut.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <language>en</language>
-    <platform>all</platform>
-    <summary lang="en">Lista de canais IPTV by Rogger</summary>
-    <description lang="en">Assista a vÃ¡rios canais transmitidos pela internet diretamente no Kodi</description>
-	<platform>all</platform>
-  </extension>
-</addon>
-
 <!--suppress ALL -->
 <addon id="plugin.video.salts" version="1.0.82" name="Stream All The Sources" provider-name="tknorris">
     <requires>
@@ -325,6 +309,20 @@ O addon apenas inclui streams oficiais.</description>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Catoal Addon</summary>
+		<description>Addon Description</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="rogger.repository" name="rogger repository" version="0.0.2" provider-name="rogger2">
+	<extension point="xbmc.addon.repository" name="rogger Add-on Repository">
+		<info compressed="false">http://raw.github.com/rogger2/rogger.repository/master/addons.xml</info>
+		<checksum>http://raw.github.com/rogger2/rogger.repository/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/rogger2/rogger.repository/master/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>rogger Addon</summary>
 		<description>Addon Description</description>
 		<disclaimer></disclaimer>
 		<platform>all</platform>
