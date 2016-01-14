@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="plugin.video.Catoal"
+       name="Catoal[COLOR blue] 5[/COLOR].[COLOR yellow]2[/COLOR].[COLOR red]6[/COLOR]"
+       version="5.2.6"
+       provider-name="Catoal">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>basedo en livestreamspro 2.0.1</summary>
+    <description>Lista de canales de catoal.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.direto" name="TV Direto" version="1.0.4" provider-name="TV Direto">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -187,6 +213,22 @@ http://www.hometheater.co.il</description>
         <summary>lista de IPTV</summary>
         <description>adiciona, edita, faz esta lista ser tua tambem.</description>
     </extension>
+</addon>
+
+<addon id="plugin.video.roggerstream" name="Rogger Stream" version="3.0.6" provider-name="Rogger, Cleiton Leonel Creton e Filipe Carvalho">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="defaut.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <language>en</language>
+    <platform>all</platform>
+    <summary lang="en">Lista de canais IPTV by Rogger</summary>
+    <description lang="en">Assista a vÃ¡rios canais transmitidos pela internet diretamente no Kodi</description>
+	<platform>all</platform>
+  </extension>
 </addon>
 
 <!--suppress ALL -->
