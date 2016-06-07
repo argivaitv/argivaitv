@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="argivaitv" name="Argivai Tv" version="0.0.2" provider-name="argivaitv">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="argivaitv" name="Argivai Tv" version="0.0.3" provider-name="argivaitv">
 	<extension point="xbmc.addon.repository" name="ArgivaiTV Add-on Repository">
 		<info compressed="false">http://raw.github.com/argivaitv/argivaitv/master/addons.xml</info>
 		<checksum>http://raw.github.com/argivaitv/argivaitv/master/addons.xml.md5</checksum>
