@@ -1,31 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.Catoal"
-       name="Catoal[COLOR blue] 5[/COLOR].[COLOR yellow]2[/COLOR].[COLOR red]6[/COLOR]"
-       version="5.2.6"
-       provider-name="Catoal">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" />
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>basedo en livestreamspro 2.0.1</summary>
-    <description>Lista de canales de catoal.</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.direto" name="TV Direto" version="1.0.4" provider-name="TV Direto">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -38,73 +12,6 @@
     <description lang="en">Podes ver aqui tudo que eu te deixar! Mama mas nÃ£o abuzes!</description>
     <platform>all</platform>
 
-  </extension>
-</addon>
-
-<addon id="plugin.video.EliplexTV" name="[COLOR darkorange]ELIPLEX TV [/COLOR]" version="1.0.2" provider-name="Eliesel G.S">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" />
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>[COLOR darkorange]ELIPLEX TV [/COLOR]</summary>
-    <description lang="en"> Entretenimiento al extremo #MI MUNDO ES TU MUNDO
-	[COLOR green]* VISITA NUESTRA PAGINA   https://eliplextv.wordpress.com/ [/COLOR]</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.genesis" name="Genesis" version="5.1.4" provider-name="lambda">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0" />
-		<import addon="script.module.requests" version="1.0.0" />
-		<import addon="script.module.metahandler" optional="true" />
-		<import addon="plugin.video.youtube" optional="true" />
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.service" library="service.py" start="startup" />
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">The origins of streaming</summary>
-		<description lang="en">Visit TVADDONS.ag for support</description>
-		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
-		<forum>http://forums.tvaddons.ag/forums/148-lambda-s-xbmc-addons</forum>
-		<source>https://offshoregit.com/lambda81/</source>
-		<website>https://offshoregit.com/lambda81/</website>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="plugin.video.giaitritv" name="**[COLOR yellow]Movies - HD[/COLOR]" version="1.0.20" provider-name="MetalKettle">
-   <requires>
-    <import addon="script.module.simplejson" version="3.3.0"/>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.t0mm0.common" version="2.0.0"/>
-    <import addon="plugin.video.youtube" version="3.0.0"/>
-    <import addon="script.module.urlresolver"  version="2.1.2"/>
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en"></summary>
-    <description lang="en"></description>
-    <platform>all</platform>
   </extension>
 </addon>
 
@@ -331,25 +238,7 @@ O addon apenas inclui streams oficiais.</description>
     </extension>
 </addon>
 
-<addon id="plugin.video.xbmctools" name="KODI tools" version="1.1.6" provider-name="dcatx">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>executable</provides>
-	</extension>
-	<extension point="xbmc.service" library="service.py" start="startup">
-    </extension>
-  <extension point="xbmc.addon.metadata">
-    <language>en</language>
-    <platform>all</platform>
-    <summary lang="en">Actualizador de Librerias</summary>
-    <description lang="en">Herramientas para actualizar las Libtmp.dll </description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="argivaitv" name="Argivai Tv" version="0.0.2" provider-name="argivaitv">
+<addon id="argivaitv" name="Argivai Tv" version="0.0.3" provider-name="argivaitv">
 	<extension point="xbmc.addon.repository" name="ArgivaiTV Add-on Repository">
 		<info compressed="false">http://raw.github.com/argivaitv/argivaitv/master/addons.xml</info>
 		<checksum>http://raw.github.com/argivaitv/argivaitv/master/addons.xml.md5</checksum>
@@ -358,20 +247,6 @@ O addon apenas inclui streams oficiais.</description>
 	<extension point="xbmc.addon.metadata">
 		<summary>ArgivaiTV Addon</summary>
 		<description>Canais de TV Gratis</description>
-		<disclaimer></disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="repository.catoal" name="Catoal repository" version="1.0.0" provider-name="Catoal">
-	<extension point="xbmc.addon.repository" name="Catoal Repository">
-		<info compressed="false">http://raw.github.com/catoalkodi/repository.catoal/master/addons.xml</info>
-		<checksum>http://raw.github.com/catoalkodi/repository.catoal/master/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.github.com/catoalkodi/repository.catoal/master/repo/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Catoal Addon</summary>
-		<description>Addon Description</description>
 		<disclaimer></disclaimer>
 		<platform>all</platform>
 	</extension>
@@ -394,20 +269,6 @@ O addon apenas inclui streams oficiais.</description>
                 <platform>all</platform>
                 <website></website>
         </extension>
-</addon>
-
-<addon id="rogger.repository" name="rogger repository" version="0.0.2" provider-name="rogger2">
-	<extension point="xbmc.addon.repository" name="rogger Add-on Repository">
-		<info compressed="false">http://raw.github.com/rogger2/rogger.repository/master/addons.xml</info>
-		<checksum>http://raw.github.com/rogger2/rogger.repository/master/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.github.com/rogger2/rogger.repository/master/repo/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>rogger Addon</summary>
-		<description>Addon Description</description>
-		<disclaimer></disclaimer>
-		<platform>all</platform>
-	</extension>
 </addon>
 
 <addon id="script.navi-x"
